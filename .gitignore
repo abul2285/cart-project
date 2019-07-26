@@ -50,8 +50,5 @@ vendors/
 pug/
 sass/
 js/
-images/
-products.json
-db.json
 css/app.css
 *.map

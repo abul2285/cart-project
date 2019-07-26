@@ -32,14 +32,14 @@ let buttonsDOM = [];
 class Products {
     async   getProducts() {
         try {
-            let contentful = await client.getEntries({
-                content_type: "cartproject"
-            });
-            console.log(contentful);
-            let products = contentful.items;
-            // let result = await fetch('../products.json');
-            // let data = await result.json();
-            // let products = data.items;
+            // let contentful = await client.getEntries({
+            //     content_type: "cartproject"
+            // });
+            // console.log(contentful);
+            // let products = contentful.items;
+            let result = await fetch('../products.json');
+            let data = await result.json();
+            let products = data.items;
             products = products.map(item => {
                 const { title, price } = item.fields;
                 const { id } = item.sys;
