@@ -16,7 +16,7 @@
     "bourbon": "^5.1.0",
     "bourbon-neat": "^3.0.1",
     "hover.css": "^2.3.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.15.0"
   },
   "dependencies": {
